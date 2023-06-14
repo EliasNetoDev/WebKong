@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/faviconICON.ico">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>KONG STORE</title>
+</head>
+
+<body>
+
+  <nav>
+    <div class="logo">
+      <a href="index.html">Kong Store</a>
+    </div>
+    <div class="menu">
+      <div class="dropdown">
+        <a href="#">Camisas &#9662;</a>
+        <div class="dropdown-content">
+          <a href="camisa.html">Camisas</a>
+        </div>
+      </div>
+      <a href="short.html">Bermudas</a>
+      <a href="#contato">Contatos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="form.html">Cadastre-se</a>
+    </div>
+    <i class='bx bx-shopping-bag' id="cart-icon"></i>
+    <div class="cart">
+      <h2 class="cart-title">Seu Carrinho</h2>
+      
+      <div class="cart-content">
+
+      </div>
+
+      <div class="total">
+          <div class="total-title">Total</div>
+          <div class="total-price">R$0</div>
+      </div>
+
+      <h2 class="cart-title">Formas de pagamento</h2>
+      
+      <select >
+
+        <option value="pagamento">Crédito</option>
+        <option value="pagamento">Débito</option>
+        <option value="pagamento">Boleto</option>
+
+      </select>
+      
+      <i class='bx bx-x' id="close-cart"></i>
+
+      <button type="button" class="btn-buy">Comprar Agora</button>
+
+    </div>
+
+    <div class="search">
+      <input type="text" placeholder="Pesquisar">
+      <button type="submit">Pesquisar</button>
+    </div>
+  </nav>
+
+  <section class="presentation">
+    <div class="container">
+      <h1>Bem-vindo à Kong Store</h1>
+      <p>Aqui você encontra os melhores shorts e camisas com estampas exclusivas.</p>
+      <a href="camisa.html"><button>Ver produtos</button></a>
+    </div>
+  </section>
+
+  <section class="condicoes">
+    <div class="container">
+      <div class="condicoes-cards">
+        <div class="condicoes-card">
+          <h3>Frete Grátis</h3>
+          <p>Para compras acima de R$ 99,90</p>
+        </div>
+        <div class="condicoes-card">
+          <h3>Troca Fácil</h3>
+          <p>Troca garantida em até 30 dias</p>
+        </div>
+        <div class="condicoes-card">
+          <h3>Envio</h3>
+          <p>Entregamos para todo Brasil</p>
+        </div>
+        <div class="condicoes-card">
+          <h3>Atendimento Personalizado</h3>
+          <p>Atendimento via Whatsapp, email ou telefone</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <h2 class="titulo-produtos">
+        Camisas & Bermudas
+      </h2>
+
+
+  <section class="produtos">
+    <div class="produto">
+      <img src="img/camisa1.png" alt="Camiseta" class="product-img">
+      <h3 class="product-title">Camisa Branca <br> 100% Algodão <br> Kong</h3>
+      <span class="price">R$ 29</span>
+      <button class="add-cart">Comprar</button>
+    </div>
+    <div class="produto">
+      <img src="img/camisa6.png" alt="Camiseta" class="product-img">
+      <h3 class="product-title">Camisa Preta <br> 100% Algodão <br> Kong</h3>
+      <span class="price">R$ 24</span>
+      <button class="add-cart">Comprar</button>
+    </div>
+    <div class="produto">
+      <img src="img/camisa3.png" alt="Camiseta" class="product-img">
+      <h3 class="product-title">Camisa Roxa <br> 100% Algodão <br> King-Kong</h3>
+      <span class="price">R$ 19</span>
+      <button class="add-cart">Comprar</button>
+    </div>
+    <div class="produto">
+      <img src="img/bermuda 1.png" alt="Bermuda" class="product-img">
+      <h3 class="product-title">Bermuda Camuflada <br> 100% Algodão <br> Kong</h3>
+      <span class="price">R$ 39</span>  
+      <button class="add-cart">Comprar</button>
+    </div>
+    <div class="produto">
+      <img src="img/bermuda 2.png" alt="Bermuda" class="product-img">
+      <h3 class="product-title">Bermuda Cinza <br> 100% Algodão <br> Kong</h3>
+      <span class="price">R$ 34</span>
+      <button class="add-cart">Comprar</button>
+    </div>
+    <div class="produto">
+      <img src="img/bermuda 3.png" alt="Bermuda" class="product-img">
+      <h3 class="product-title">Bermuda Vermelha <br> 100% Algodão <br> Kong</h3>
+      <span class="price">R$ 49</span>
+      <button class="add-cart">Comprar</button>
+    </div>
+  </section>
+
+  <section class="sobre-nos" id="sobre">
+    <div class="imagem">
+      <img src="img/kong4.jpg" alt="Imagem da loja">
+    </div>
+    <div class="texto">
+      <h2>Sobre a Loja</h2>
+      <p>A Kong é uma loja especializada em moda masculina, focada em oferecer aos nossos clientes as melhores opções de
+        camisas e shorts de alta qualidade. Fundada em 2023, a Kong nasceu da paixão de um grupo de amigos pela moda e
+        pelo estilo de vida despojado. A Kong se destaca por oferecer peças exclusivas, com design diferenciado e
+        acabamento impecável.
+
+        Nossa seleção de camisas e shorts é cuidadosamente escolhida para atender ao público masculino com diversos
+        estilos, desde peças casuais para o dia a dia até opções mais formais. Trabalhamos apenas com marcas renomadas,
+        que compartilham dos nossos valores de qualidade, inovação e sustentabilidade.
+
+        Na Kong, acreditamos que a moda é uma forma de expressão e de conexão com o mundo ao nosso redor. Por isso,
+        estamos sempre em busca de novas tendências e inspirações, sem nunca perder de vista o nosso compromisso com a
+        excelência e a satisfação dos nossos clientes. Seja bem-vindo à Kong, a loja que veste quem tem atitude.</p>
+    </div>
+  </section>
+
+
+  <a href="https://wa.me/+5575981290867" class="whatsapp-btn" class="wppimg" target="_blank">
+    <img src="img/wppicon.png" alt="Imagem da rede social Whatsapp">
+    <i class="fa fa-whatsapp"></i>
+  </a>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Contatos</h4>
+          <ul>
+            <li>Telefone: (11) 3435-0000</li>
+            <li>E-mail: contato@kongstore.com.br</li>
+            <li>Clique no botão do Whatsapp e fale conosco!</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4>Redes Sociais</h4>
+          <ul class="social-media" id="contato">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4>Direitos Reservados</h4>
+          <p>&copy; 2023 Kong Store. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+<script src="script.js"></script>
+</html>

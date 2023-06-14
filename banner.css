@@ -1,0 +1,27 @@
+.banner {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner h1{
+    font-size: 3rem;
+    -webkit-text-stroke: 2px #000;
+    font-weight: 800;
+    text-shadow: 10px 10px 20px black;
+    transition: ease-in 0.3s;
+    color: #fff;
+  }
+
+  .banner h1:hover{
+    -webkit-text-stroke: 2px #fff;
+    transition: ease-in 0.3s;
+    color: #000;
+    cursor: pointer;
+  }
